@@ -1,0 +1,36 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    background-image: url("./img/pizza-slice.jpg"); 
+    background-size: 20vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+}
+
+header, footer{
+    background-color: bisque;
+    width: 100%;   
+}
+
+.content{
+    height: 99vh;
+    padding: 2vh;
+
+}
+.title{
+    background-color: whitesmoke;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style: none;
+}
+
+.hidden{
+    display: none;
+}
